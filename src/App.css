@@ -5,3 +5,96 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafb);
 }
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 0 0 2em rgba(0, 0, 0, 0.1); */
+  padding: 1.5em;
+  margin: 1em;
+  width: 16em;
+  height: 9em;
+  max-width: 100%;
+  text-align: left;
+  transition: 0.25s;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.query {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 98%;
+  justify-content: center;
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+
+.sections {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin: 0.25em;
+  border-radius: 4px;
+  padding: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  background-color: #cfcfcfb9;
+}
+
+.section:hover {
+  background-color: #cfcfcf;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em;
+}
+
+.course-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

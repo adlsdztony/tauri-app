@@ -1,7 +1,22 @@
-# Tauri + React
+# CourseScheduler
+A course scheduler for the University of Hong Kong. Build with tauri and react.
 
-This template should help get you started developing with Tauri and React in Vite.
+## Installation
+### Download from release
+Download the latest release from the [release page](https://github.com/adlsdztony/tauri-app/releases/latest).
 
-## Recommended IDE Setup
+Install the downloaded file.
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### Build from source
+#### Prerequisites
+- [Node.js](https://nodejs.org/en/)
+- [Rust](https://www.rust-lang.org/tools/install)
+
+### Build the app
+```bash
+git clone https://github.com/adlsdztony/tauri-app.git
+cd tauri-app
+npm install
+npm run tauri build
+```
+You can find the built app in `src-tauri/target/release/bundle/`.

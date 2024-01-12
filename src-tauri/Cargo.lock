@@ -479,9 +479,9 @@ dependencies = [
 
 [[package]]
 name = "coursehku"
-version = "0.2.0"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0a04c752c8cd6f3cd054cee9eaf6e2eb4b60ae8bd698bb250b5b9b5e23a8e558"
+checksum = "7633a8e4afdd5d74f28159984ec755fea5dd97ce9d6a8ae6fc10c91099a07301"
 dependencies = [
  "polars",
  "serde",
