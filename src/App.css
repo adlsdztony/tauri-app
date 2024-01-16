@@ -132,7 +132,11 @@
   }
 
   .section {
-    background-color: #1f1f1f;
+    background-color: #474747;
+  }
+
+  .section:hover {
+    background-color: #5e5e5e;
   }
 
   .course-info {
