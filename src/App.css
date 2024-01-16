@@ -98,3 +98,48 @@
   justify-content: center;
   text-align: center;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f6f6f6;
+    background-color: #2f2f2f;
+  }
+
+  .card {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    color: #f6f6f6;
+  }
+
+  .card-text {
+    color: #f6f6f6;
+  }
+
+  .card-list {
+    color: #f6f6f6;
+  }
+
+  .query {
+    background-color: #2f2f2f;
+  }
+
+  .sections {
+    background-color: #1f1f1f;
+  }
+
+  .section {
+    background-color: #1f1f1f;
+  }
+
+  .course-info {
+    background-color: #2f2f2f;
+  }
+
+  .container {
+    background-color: #2f2f2f;
+  }
+}

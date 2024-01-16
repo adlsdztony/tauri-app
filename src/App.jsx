@@ -36,15 +36,13 @@ function CourseCard({ course, key, add }) {
   let sections = [];
   for (const value of course.sections) {
     sections.push(
-      <div className="section">
-        <div
-          className="section-title"
-          onClick={() => {
-            add(course.code, value.section);
-          }}
-        >
-          {value.section}
-        </div>
+      <div
+        className="section"
+        onClick={() => {
+          add(course.code, value.section);
+        }}
+      >
+        <div className="section-title">{value.section}</div>
       </div>
     );
   }
