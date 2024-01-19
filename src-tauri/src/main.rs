@@ -9,11 +9,6 @@ use coursehku::serilize::CourseList;
 use std::{path::PathBuf, sync::Mutex};
 use structures::Data;
 
-// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-#[tauri::command]
-fn greet(name: &str) -> String {
-    format!("Hello, {}! You've been greeted from Rust!", name)
-}
 
 #[tauri::command]
 fn search(
@@ -88,7 +83,7 @@ fn main() {
         .manage(DataPointer(Mutex::new(Data::new(PathBuf::from(
             "data.csv",
         )))))
-        .invoke_handler(tauri::generate_handler![greet, search, add, courses, clear])
+        .invoke_handler(tauri::generate_handler![search, add, courses, clear])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
